@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles/waiting_cile.css">
+    <link rel="stylesheet" href="styles/allert_holder.css">
+    <link rel="stylesheet" href="styles/reserver_holder.css">
+    <link rel="stylesheet" href="styles/main_layout.css">
+    <link rel="stylesheet" href="styles/info_line.css">
+    <link rel="stylesheet" href="styles/waiting_list.css">
+    <link rel="stylesheet" href="styles/input_line.css">
+    <link rel="stylesheet" href="styles/select_line.css">
+    <link rel="stylesheet" href="styles/data_taker.css">
+    <link rel="stylesheet" href="styles/globel.css">
+  </head>
+  <body>
+    <div class="main_holder" id="main_holder">
+      <top-div class="center">
+        <left-div class="center" id="start_bt">Connect</left-div>
+        <right-div class="center">notifications <switsh-bt translate_to='31' id='notifications_bt' state='on'></switsh-bt></right-div>
+      </top-div>
+      <bottom-div>
+        <top-div class="center" id="alerts_holder"></top-div>
+        <bottom-div><info-line key='Last Up Date' value="" dir='auto' id='last_update'></info-line>
+          <c-icon class="active hid" src="icons/add.svg" id="show_reserver_button" size="31" layer_target="send_tasks_manager"></c-icon>
+        </bottom-div>
+      </bottom-div>
+      <div class="password_taker center hid" id="password_taker">
+        <div class="password_holder" id="password_holder">
+          <top-div class="center">
+            <input type="text" id="user_name_input" placeholder="Username">
+            <input type="text" id="password_input" placeholder="Password">
+          </top-div>
+          <bottom-div class="center" id="password_ok_bt">OK</bottom-div>
+        </div>
+      </div>
+      <div class="reserver_holder" id="reserver_holder_holder">
+        <top-div class="center">
+          <left-div></left-div>
+          <right-div class="center">
+            <c-icon src="icons/down-arrow.svg" id="hid_reserver_button" size="34" layer_target="send_tasks_manager"></c-icon>
+          </right-div>
+        </top-div>
+        <bottom-div>
+          <reserver-holder id="reserver_holder"></reserver-holder>
+        </bottom-div>
+      </div>
+    </div>
+    <script src="componant/left.js"></script>
+    <script src="componant/right.js"></script>
+    <script src="componant/top.js"></script>
+    <script src="componant/bottom.js"></script>
+    <script src="componant/c-icon.js"></script>
+    <script src="componant/switsh_bt.js"></script>
+    <script src="componant/info_line.js"></script>
+    <script src="componant/allert_holder.js"></script>
+    <script src="componant/layers_naving.js"></script>
+    <script src="componant/pop_up.js"></script>
+    <script src="componant/waiting_list.js"></script>
+    <script src="componant/data_taker.js"></script>
+    <script src="componant/input_line.js"></script>
+    <script src="componant/select_line.js"></script>
+    <script src="componant/waiting_cile.js"></script>
+    <script src="js/manager_main_layout.js"></script>
+    <script src="componant/reserver_holder.js"></script>
+    <script src="js/manager_pwa.js"></script>
+    <!--include include\\bin_scripts.pug-->
+  </body>
+</html>

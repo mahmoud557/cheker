@@ -1,0 +1,23 @@
+div(id='main_holder',class='main_holder')
+	top-div(class='center')
+		left-div(id='start_bt' class='center')|Connect
+		right-div(class='center')
+			|notifications <switsh-bt translate_to='31' id='notifications_bt' state='on'></switsh-bt>
+	bottom-div
+		top-div(class='center' id='alerts_holder')
+		bottom-div
+			<info-line key='Last Up Date' value="" dir='auto' id='last_update'></info-line>
+			c-icon(src='icons/add.svg'  id='show_reserver_button' size='31' layer_target='send_tasks_manager' class='active hid')
+	div(id='password_taker',class='password_taker center hid')
+		div(id='password_holder' class='password_holder')
+			top-div(class='center')
+				input(type='text' id='user_name_input' placeholder='Username')
+				input(type='text' id='password_input' placeholder='Password')
+			bottom-div(class='center' id='password_ok_bt')|OK
+	div(id='reserver_holder_holder',class='reserver_holder')
+		top-div(class='center')
+			left-div
+			right-div(class='center')
+				c-icon(src='icons/down-arrow.svg' id='hid_reserver_button' size='34' layer_target='send_tasks_manager')
+		bottom-div
+			reserver-holder(id='reserver_holder')

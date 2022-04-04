@@ -1,0 +1,65 @@
+select-line{
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: system-ui;
+    margin: 10px 10px;
+    /* padding: 10px; */
+    width: 90%;
+    flex-shrink: 0;
+}
+
+select-line>left-div{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px;
+	font-size: 13px;
+	font-weight: 600;
+	color: rgba(120, 120, 120, 1);
+	font-family: system-ui;
+	white-space: nowrap;
+	/* flex: auto; */
+	justify-content: flex-start;
+	/* min-width: 103px; */
+	flex-shrink: 0;
+}
+
+select-line>right-div{
+    flex: auto;
+    height: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    color: rgba(100, 100, 100, 1);
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4px;
+    justify-content: flex-end;
+}
+
+select-line>right-div>select{
+    width: 100%;
+    height: 100%;
+    background: none;
+    /* padding: 8px; */
+    border-bottom: 1px solid #a0a0a0;
+    border: none;
+    border-bottom: 1px dashed #a0a0a0;
+    max-width: 240px;
+    font-size: 16px;
+    outline: none;
+    flex: auto;
+    margin: 0px 4px;
+}
+
+select-line>right-div>select>option{
+ 	background:rgb(233 233 233);
+}
+
+

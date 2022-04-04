@@ -1,0 +1,32 @@
+info-line{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: system-ui;
+	margin: 0px 10px;
+}
+
+info-line>left-div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(120, 120, 120, 1);
+    font-family: system-ui;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+info-line>right-div{
+	flex: auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+	color: rgba(100, 100, 100, 1);
+	letter-spacing: 1px;
+}
+

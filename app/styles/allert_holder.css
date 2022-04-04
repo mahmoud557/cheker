@@ -1,0 +1,15 @@
+allert-holder{
+	width: 320px;
+	max-width: 100%;
+	/* height:100px; */
+	background: rgb(253 253 253);
+	border-radius: 3px;
+	box-shadow: 0 0 3px 0 #0000008f;
+	margin: 4px;
+	flex-shrink: 0;
+	padding: 8px;
+	/* max-height: 30%; */
+	height: fit-content;
+	padding: 10px;
+	cursor: pointer;
+}

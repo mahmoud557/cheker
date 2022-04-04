@@ -1,0 +1,67 @@
+data-taker{
+	width: 460px;
+	max-width: 100%;
+	height: 99%;
+	background: #e9e9e9;
+	box-shadow: 0 0 4px 0 black;
+	display: flex;
+	flex-direction: column;
+	padding: 2px;
+}
+
+data-taker>top-div{
+	width:100%;
+	height:40px;
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	padding: 0px;
+	border-bottom: 1px solid hsl(0deg 0% 31% / 10%);
+}
+data-taker>top-div>left-div{
+	flex:auto;
+	height:100%;
+}
+data-taker>top-div>right-div{
+	width:40px;
+	height:100%;
+}
+data-taker>top-div>c-icon{
+	max-width: 100%;
+}
+
+data-taker>bottom-div{
+	flex:auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	direction: rtl;
+	padding: 0px 16px 20px;
+	overflow-y: auto;
+	margin-bottom: 20px;
+	/* flex-grow: 0; */
+}
+
+data-taker>.controlers{
+	width:100%;
+	height: 42px;
+	justify-content: center;
+	flex-shrink: 0;
+	padding: 4px;
+	/* border-top: 1px solid rgb(215 215 215); */
+	/* background: #d7d7d7; */
+}
+data-taker>.controlers>div{
+	width: 112px;
+	height: 100%;
+	cursor: pointer;
+	font-family: system-ui;
+	color: rgb(249 249 249);
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: rgb(80 80 80);
+	border-radius: 4px;
+	margin: 0px 14px;
+	box-shadow: 0 0 2px 0 black;
+}

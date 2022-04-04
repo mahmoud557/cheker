@@ -1,0 +1,51 @@
+reserver-holder{
+	width:100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+reserver-holder>top-div{
+	width:100%;
+	height: 38px;
+	box-shadow: 0 0 4px 0 #0000008f;
+	flex-shrink: 0;
+}
+reserver-holder>top-div>layers-holder-head{
+	width:100%;
+	height: 38px;
+	/* box-shadow: 0 0 3px 0 black; */
+	justify-content: flex-start;
+}
+
+reserver-holder>top-div>layers-holder-head>div{
+	height:100%;
+	padding: 10px;
+	margin: 0px 16px;
+	align-items: center;
+	padding: 12px;
+	font-size: 13px;
+	font-weight: 600;
+	color: rgb(160 160 160);
+	font-family: system-ui;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+reserver-holder>top-div>layers-holder-head>.active{
+	color: rgb(120 120 120) !important;
+	border-bottom: 2px solid rgb(110 110 110);
+}
+
+reserver-holder>bottom-div{
+	flex: auto;
+	width: 100%;
+	display: flex;
+
+
+}
+reserver-holder>bottom-div>layers-holder{
+	width:100%;
+	height:100%;
+}
+
+
